@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="font-size:300px">Click me</h1>
+    <script>
+      function BellBoy(first,last,age,language,workPermit){
+            this.first = first
+            this.last = last
+            this.age = age
+            this.language = language
+            this.workPermit = workPermit
+            this.clean = function(){
+                alert("cleaning in progress..........")
+            }
+        }
+        let bellBoy = new BellBoy("Said","Sultan",17,["English","Urdu"],true)
+  console.log(bellBoy.language)  
+
+    </script>
+</body>
+</html>
